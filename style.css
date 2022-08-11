@@ -51,21 +51,26 @@ header{
 }
 
 
-header nav ul {
+header nav #menu {
     display: flex;
     list-style: none;
     gap: 5.5rem;
 }
 
-header nav ul li a{
+header nav ul .li-main a{
    font-family: var(--fontInter);
    font-size: 2.1rem;
    font-weight: 500;
    text-decoration: none;
    color: var(--corWhite200);
 }
-header nav ul li a:hover{
+header nav ul .li-main a:hover{
     color: #8257E6;
+}
+ul li ul li{
+    list-style: none;
+    background-color: #282830;
+    padding: 20px;
 }
 #btn-mobile{
    display: none; 
@@ -401,7 +406,7 @@ footer{
         max-width: 968px;
         height: auto;
     }
-    header nav ul li a{
+    header nav ul .li-main a{
         font-size: 1.8rem;
     }
 }
@@ -410,7 +415,7 @@ footer{
     html, body{
         font-size: 55%;
     }
-    header nav ul  {
+    header nav #menu  {
         gap: 3rem;
     }
     
@@ -429,12 +434,12 @@ footer{
         margin: auto;
         padding: 0px;
     }
-    header nav ul  {
+    header nav #menu  {
         gap: 2rem;
     }
 
    
-    header nav ul{
+    header nav #menu{
         display: block;
         position: absolute;
         width: 0px;
@@ -449,13 +454,13 @@ footer{
         overflow-y: auto;
         transition: .3s;
     }
-    #nav.active ul{
+    #nav.active #menu{
         max-width: 300px;
         width: 60%;
         padding-left: 20px;
   }
     
-    header li{
+    header .li-main{
         padding: 15px 0 ;
     }
     header ul li a{
@@ -514,7 +519,6 @@ footer{
     #nav.active #logo-hambu{
         transition-delay: 230ms;
         visibility: visible;
-        
         
     }
     
