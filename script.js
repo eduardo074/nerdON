@@ -1,5 +1,6 @@
 let count = 1;
 const btnMobile =document.getElementById('btn-mobile');
+const setaMenu = document.getElementById('seta');
 
 document.getElementById("radio1").checked = true;
 
@@ -30,4 +31,5 @@ function toggleMenu(event){
 }
 
 btnMobile.addEventListener('click', toggleMenu);
+setaMenu.addEventListener('click', toggleMenu);
 btnMobile.addEventListener('touchstart', toggleMenu);
