@@ -10,21 +10,31 @@
 <body>
 
     <header>
-        <h1 class="logo" ><a href="index.html">Nerd ON</a></h1>
-        <nav>
-            <ul>
+        <a href="index.html">
+            <img src="img/logo-nerd-on2.png" id="logo" alt="logo do Nerd ON">
+        </a>
+        
+        <nav id="nav">
+            <a href="index.html">
+                <img id="logo-hambu" src="img/logo-nerd-on2.png" id="logo" alt="logo do Nerd ON">
+            </a>
+
+            <button id="btn-mobile" aria-label="Abrir menu" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+                <span id="hamburger"></span>
+            </button>
+            <ul id="menu" role="menu">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="#">Séries</a></li>
-                <li><a href="#">Filmes</a></li>
-                <li><a href="#">Animes</a></li>
-                <li><a href="#">Games</a></li>
-                <li><a href="#">Parcerias</a></li>
+                <li><a href="pages-navbar/series.html">Séries</a></li>
+                <li><a href="pages-navbar/filmes.html">Filmes</a></li>
+                <li><a href="pages-navbar/animes.html">Animes</a></li>
+                <li><a href="pages-navbar/games.html">Games</a></li>
+                <li><a href="pages-navbar/contatos.html">Contato</a></li>  
             </ul>
         </nav>
     </header> <!--Fim header-->
 
     <main>
-
+        
         <section class="presentation">
             <h2>Mundo nerd?<br>
                 Nerd ON!</h2>
