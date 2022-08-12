@@ -2,20 +2,20 @@ let count = 1;
 const btnMobile =document.getElementById('btn-mobile');
 const setaMenu = document.getElementById('seta');
 
-document.getElementById("radio1").checked = true;
+// document.getElementById("radio1").checked = true;
 
-setInterval( function(){
-    nextImage();
-}, 8000)
+// setInterval( function(){
+//     nextImage();
+// }, 8000)
 
-function nextImage(){
-    count++;
-    if (count > 4) {
-        count = 1;
-    }
+// function nextImage(){
+//     count++;
+//     if (count > 4) {
+//         count = 1;
+//     }
 
-    document.getElementById("radio"+count).checked = true;
-}
+//     document.getElementById("radio"+count).checked = true;
+// }
 
 function toggleMenu(event){
     if (event.type == 'touchstart') event.preventDefault();
