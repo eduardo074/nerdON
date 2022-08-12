@@ -150,6 +150,9 @@ main p{
     width: 25%;
     position: relative;
 }
+.slide a p:hover{
+    color: #8257E6;
+}
 .slide img {
     width: 800px; 
    
@@ -289,7 +292,6 @@ img{
     border: 1px solid black;
     overflow-y: auto;
     margin-top: 50px;
-    border: none;
 }
 .wrapper::-webkit-scrollbar{
    background-color:#282830 ;
