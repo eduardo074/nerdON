@@ -9,8 +9,6 @@
 
     --fontInter: 'Inter', sans-serif ;
     --fontLexendDeca: 'Lexend Deca', sans-serif ;
-
-    --border1: 1px solid red;
 }
 
 *{
@@ -32,7 +30,6 @@ html, body{
 
 
 header, main{
-    border: var(--border1);
     max-width: 1200px;
     width: 90%;
     margin: auto;
@@ -338,11 +335,7 @@ span{
     color: rgb(196, 196, 196);
     font-family: var(--fontInter);
 }
-.btn-box{
-    position: absolute;
-    top: 2%;
-    left: 1%;
-}
+
 .ad{
     width: 390px;
     height: 1000px;
@@ -360,17 +353,15 @@ span{
 .recent{
     max-width: 1200px;
     height: auto;
-    border: 1px solid white;
     margin-top: 64px;
 }
 .recent h3{
-    padding-left: 35px;
     margin-bottom: 25px;
     font-weight: 400;
     font-size: 2.4rem;
     font-family: var(--fontInter);
     color: #FEFBFB;
-    display: inline-block;
+    text-align: center;
 }
 .recent .conteiner-recent{
     text-align: center;
@@ -406,9 +397,19 @@ span{
     line-height: 20px;
     font-size: 1.6rem;
 }
+hr{
+    height: 1px;
+    border-color: hsla(258, 74%, 62%, 0.034);
+}
 footer{
     margin: 73px 0 42px 0px;
     text-align: center;
+    font-size: 1.8rem;
+    color: #8257E6;
+}
+footer p{
+    font-size: 1.0rem;
+    color: white;
 }
 @media (max-width:1150px){
     .mini-news{
@@ -573,6 +574,7 @@ footer{
     }
     .wrapper{
         margin-top: 30px;
+        text-align: center;
      }
     
 
@@ -598,4 +600,20 @@ footer{
     .news-wrapper {
         margin-top: -30%;
     }
+}
+@media (max-width: 360px){
+    .box img, .recent .conteiner-recent .box img {
+        width: 100%;
+        object-fit: cover;
+    }
+    .recent .conteiner-recent .box img {
+        width: 338px;
+        width: 90%;
+        object-fit: cover;
+    }
+    .recent .conteiner-recent .box a p {
+        padding: 10px;
+        font-size: 1.3rem;
+    }
+   
 }
