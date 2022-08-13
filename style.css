@@ -235,18 +235,15 @@ main p{
     margin-bottom: -19px;
 }
 .news-rigth{
-    width: 387px;
     height: 188px;
     margin-top: 50px;
-    background-color: black;
     position: relative;
 }
 #two{
     margin-top: 24px;
 }
 .news-rigth img{
-    width: 385px;
-    height: 188px;
+    width: 338px;
     object-fit: cover; 
 }
 .news-rigth a p:hover {
@@ -392,7 +389,7 @@ span{
 .recent .conteiner-recent .box img{
     max-width: 338px;
     width: 100%;
-    height: inherit;
+    height: 190px;
     object-fit: cover;
     -webkit-transition: all 0.7s ease;
     transition: all 0.7s ease;
@@ -404,7 +401,7 @@ span{
 }
 .recent .conteiner-recent .box a p{
     position: absolute;
-    bottom: 0%;
+    bottom: 24%;
     left: 3%;
     z-index: 5;
     color: #FEFBFB;
