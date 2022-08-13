@@ -462,23 +462,34 @@ footer p{
     text-decoration: underline;
  }
  /*page navbar*/
-
  .conteudo-back{
     background-image: url('img/capa-navbar/capa-series.jpg');
+ }
+ .conteudo-back-2{
+    background-image: url('img/capa-navbar/capa-filmes.jpg');
+ }
+ .conteudo-back-3{
+    background-image: url('img/capa-navbar/capa-games.jpg');
+ }
+ .conteudo-back-4{
+    background-image: url('');
+ }
+
+
+ .conteudo-back, .conteudo-back-2, .conteudo-back-3, .conteudo-back-4{
     background-repeat: no-repeat;
     background-size: cover;
     background-position:  center center;
     height: 300px;
  }
- .conteudo-back .text-back{
+ .text-back{
     padding: 93px 0px 0px 40px;
  }
- .conteudo-back .text-back h1{
+ .text-back h1{
     font-size: 4.8rem;
     padding: 17px 0 ;
  }
- 
- .conteudo-back .text-back p{
+.text-back p{
     font-size: 2rem;
  }
 
