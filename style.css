@@ -576,6 +576,12 @@ footer p{
         margin: 0px 6px;
     }
 }
+@media(max-width:791px){
+    .series-box .box-series {
+        width: 244px;
+       
+    }
+}
 @media (max-width:744px){
     #ul-contato, #seta{
         display: none;
@@ -716,6 +722,11 @@ footer p{
     } 
     .news-wrapper {
         margin-top: -12%;
+    }
+}
+@media(max-width:581px){
+    .series-box .box-series {
+        width: 400px;
     }
 }
 @media (max-width:552px){
