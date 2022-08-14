@@ -244,6 +244,7 @@ main p{
 }
 .news-rigth img{
     width: 338px;
+    height: 190px;
     object-fit: cover; 
 }
 .news-rigth a p:hover {
@@ -308,9 +309,10 @@ img{
     position: relative;
 }
 .box img{
-   width: 260px;
-   height: 200px;
-   object-fit: cover;
+    max-width: 260px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
 }
 .box{
     display: flex;
@@ -567,6 +569,14 @@ footer p{
         gap: 3rem;
     }
 }
+@media(max-width:883px){
+    .recent .conteiner-recent .box {
+        max-width: 228px;
+        width: 90%;
+        height: 230px;
+        margin: 0px 6px;
+    }
+}
 @media (max-width:744px){
     #ul-contato, #seta{
         display: none;
@@ -707,6 +717,16 @@ footer p{
     } 
     .news-wrapper {
         margin-top: -12%;
+    }
+}
+@media (max-width:552px){
+    .recent .conteiner-recent .box {
+        max-width: 338px;
+        width: 90%;
+        height: 250px;
+        display: inline-block;
+        margin: -15px 15px;
+        position: relative;
     }
 }
 @media (max-width:483px){
