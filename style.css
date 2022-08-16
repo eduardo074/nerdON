@@ -413,15 +413,29 @@ hr{
     border-color: hsla(258, 74%, 62%, 0.034);
 }
 footer{
-    margin: 73px 0 42px 0px;
+    max-width: 1000px;
+    width: 90%;
+    margin: auto;
     text-align: center;
     font-size: 1.8rem;
     color: #8257E6;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 footer p{
-    font-size: 1.0rem;
+    font-size: 1.6rem;
     color: white;
 }
+footer nav ul {
+    padding: 50px 0;
+    width: 250px;
+    margin: auto;
+}
+footer nav ul li{
+    text-align: left;
+}
+
 /*Page slide*/
 
 .news-click{
@@ -519,7 +533,6 @@ footer p{
     padding-top: 10px;
 }
 
-
 @media (max-width:1150px){
     .mini-news{
         display: none;
@@ -571,6 +584,9 @@ footer p{
         height: 230px;
         margin: 0px 6px;
     }
+    footer{
+        display: block;
+    }
 }
 @media(max-width:791px){
     .series-box .box-series {
@@ -584,7 +600,6 @@ footer p{
         visibility: hidden;
     }
     .box{
-        display: inline-block;
         text-align: center;
         margin: auto;
         margin-right: 15px;
@@ -676,7 +691,7 @@ footer p{
         visibility: visible;
     }
     .slide img {
-        width: 85%;
+        width: 100%;
         text-align: center;
         margin: auto;
         display: block;
@@ -686,6 +701,7 @@ footer p{
         padding: 0px;
         font-size: 2rem;
         top: 7px;
+        line-height: 27px;
         text-align: center;
     }
     .manual-navigation {
@@ -696,17 +712,23 @@ footer p{
         display: none;
     }
     .wrapper{
-        margin-top: 30px;
+        margin-top: 14%;
         text-align: center;
      }
-    
-
-    
+     .news-click h1, .news-click p  {
+        font-size: 500%;
+    }
 }
 @media (max-width:683px){
+    .wrapper{
+        display: flex;
+        flex-wrap: wrap;
+     }
     
     .box{
         display: block;
+        width: 40%;
+        margin: auto;
     }
 
     html, body{
@@ -738,6 +760,14 @@ footer p{
 @media (max-width:483px){
     .news-wrapper {
         margin-top: -30%;
+    }
+    .box {
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+    .wrapper{
+        display: block;
     }
 }
 @media (max-width: 360px){
