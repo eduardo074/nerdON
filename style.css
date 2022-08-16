@@ -82,14 +82,12 @@ header nav ul .li-main a:hover{
     z-index: 1500;
     visibility: hidden;
     overflow-y: auto;
-    
 }
 #ul-contato li a{
     font-size: 1.6rem;
 }
 #nav.active #ul-contato{
     visibility: visible;
-    
     
 }
 ul li ul li{
@@ -639,7 +637,7 @@ footer p{
     #hamburger{
         display: block;
         width: 20px;
-        border-top: 2px solid #8257E6;
+        border-top: 2px solid #dfdce7;
     }
     #hamburger::after, #hamburger::before {
         content: '';
