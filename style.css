@@ -652,7 +652,7 @@ footer nav ul li{
     #hamburger{
         display: block;
         width: 20px;
-        border-top: 2px solid #dfdce7;
+        border-top: 2px solid #8257E6;
     }
     #hamburger::after, #hamburger::before {
         content: '';
