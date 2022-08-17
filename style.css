@@ -751,6 +751,9 @@ footer nav ul li{
     .series-box .box-series {
         width: 400px;
     }
+    .series-box .box-series h2 {
+        max-width: 350px;
+    }
 }
 @media (max-width:552px){
     .recent .conteiner-recent .box {
