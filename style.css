@@ -343,13 +343,30 @@ span{
     font-family: var(--fontInter);
 }
 
-.ad{
-    width: 390px;
-    height: 1000px;
-    background-color: gray;
+.top-news-w{
+    width: 340px;
+    height: auto;
     display: inline-block;
     margin-top: 50px;
     margin-left: 10px;
+}
+.box-top-news-w{
+    width: inherit;
+    height: 250px;
+    margin-bottom: 10px;
+}
+.box-top-news-w img{
+    width: inherit;
+    height: 150px;
+    object-fit:cover ;
+}
+.top-news-w a{
+    text-decoration: none;
+    color: white;
+}
+.top-news-w{
+    font-size: 1.4rem;
+    
 }
 .ad2{
     background-color: gray;
